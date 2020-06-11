@@ -1,0 +1,14 @@
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.7
+  - opencv
+  - tensorflow-gpu=1.13.1
+  - gdal=2.4.2
+  - pip:
+    - --index-url=https://pypi.org/simple
+    - --trusted-host=[pypi.org]
+    - -rrequirements.in

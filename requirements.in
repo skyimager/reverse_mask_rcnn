@@ -1,0 +1,7 @@
+# requirements.in
+buzzard
+numpy==1.16.4
+keras==2.2.4
+gdown
+numba
+tqdm
